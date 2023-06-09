@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    transition: 0.5s;
+    
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: tahoma;
+    background-color: rgb(184, 217, 233);
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background: url(img/yan1.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+.main-menu {
+    width: 100% ;
+    height: 60px;
+    
+}
+
+.logo {
+    cursor: pointer;
+    display: inline;
+    height: 60px;
+    line-height: 60px;
+    margin: 100px;
+    color: #fff;
+    transition-duration: 0s;
+}
+
+
+.logo:hover{
+    font-size: 20px;
+    color: rgb(229, 245, 7);
+}
+
+ul {
+    float: right;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 50px;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 50px;
+
+    
+}
+
+
+ul li a {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+.ul li a:hover{
+    font-size: 70px;
+    color: darkturquoise;
+
+}
+
+
+
+.our-menu {
+    width: 50%;
+    color: #fff;
+    margin-top: 20%;
+    margin-left: 200px  ;
+
+}
+
+.our-menu p {
+    margin: 10px 0;
+    color: #ededed;
+}
+
+.our-menu button{
+    border: 2px solid #ededed;
+    padding: 10px 20px;
+    background: transparent;
+    color:#ededed ;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.our-menu h1  {
+cursor: pointer;
+transition-duration: 1s;
+text-shadow: 2px 2px rgb(253, 149, 13);
+
+
+}
+.our-menu h1:hover{
+    font-size: 40px;
+    color: yellow;
+}
+
+.our-menu p {
+    cursor: pointer;
+transition-duration: 1s;
+text-shadow: 2px 2px rgb(253, 149, 13);
+}
+
+.our-menu p:hover{
+    font-size: 30px;
+    color: rgb(255, 10, 10);
+
+}
+
+.our-menu button{
+    cursor: pointer;
+transition-duration: 1s;
+text-shadow: 2px 2px rgb(253, 149, 13);
+}
+
+.our-menu button:hover{
+    font-size: 20px;
+    color: rgb(255, 10, 10);
+
+}
+          
+
+
+
+ /* IKKINCHI BULIM */
+
+
+
+ .container3 {
+    cursor: pointer;
+    transition-duration: 2s;
+    width: 100%;
+    height: 100vh;
+    background: url(img/jongi.jpg) no-repeat;
+    background-size: cover;
+    color: beige;
+    text-align: center;
+}
+.container3 h1{
+    padding-top: 40px;
+
+}
+
+.container3 h1:hover{
+    font-size: 40px;
+    color: rgb(223, 11, 148);
+
+}
+.container3 h2{ color: yellow;
+
+
+}
+
+
+.images {
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+
+}
+
+.images img {
+    width: 33%;
+    height: 100%;
+
+}
+
+
+
+/*UCHINCHI BULIM */
+
+.fan ul li input{
+    margin-top: 50px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background: #f7fa49;
+}
+
+.fan ul li input:hover{
+    font-size: 20px;
+    color: red;
+    background: rgb(138, 213, 236);
+}
+
+.section {
+    color: honeydew;
+    width: 100%;
+    height: 100vh;
+    background: no-repeat url(img/jongi2.jpg);
+    background-size: cover;
+    margin: 80px 0;
+}
+
+.jadval h1 {
+    text-align: center;
+    padding: 40px;
+    cursor: pointer;
+    color: yellow;
+}
+
+.jadval h1:hover{
+    font-size: 40px;
+    color: red;
+
+}
+
+.jadval h2 {
+    padding-right: 28px;
+    font-weight: 600;
+    margin: 30px;
+    cursor: pointer;
+    animation-duration: 1s;
+    color: yellow;
+}
+.jadval h2:hover{
+    font-size: 30px;
+    color: red;
+
+}
+
+
+/* TURTINCHI  BULIM */
+
+
+
+.section2 {
+    width: 100%;
+    height: 100vh;
+    background: url(IMG/yan3.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 850px;
+   
+}
+.section2 h1{
+    text-align: center;
+    color: yellow;
+}
+
+.logo3 {
+    display: inline;
+    height: 60px;
+    line-height: 60px;
+    margin: 100px;
+    color: #fff;
+    transition-duration: 0s;
+  
+}
+
+
+.logo3:hover{
+    font-size: 80px;
+    color: rgb(7, 245, 27);
+}
+
+
+
